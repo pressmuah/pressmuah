@@ -1,7 +1,8 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-:root{--pm-bg:255 255 255;--pm-fg:17 17 17;--pm-accent:234 76 137}
-body{background-color:rgb(var(--pm-bg));color:rgb(var(--pm-fg))}
-.pm-toolbar button{ @apply px-3 py-1 rounded border text-sm; }
-.pm-badge{ @apply inline-flex items-center gap-1 px-2 py-0.5 rounded bg-black/70 text-white text-xs; }
+:root { --pm-bg: 255 253 250; --pm-fg: 17 17 17; --pm-accent: 236 72 153; }
+html, body { height: 100%; } body { background: rgb(var(--pm-bg)); color: rgb(var(--pm-fg)); }
+.pm-pill { @apply fixed bottom-4 left-1/2 -translate-x-1/2 bg-white/90 backdrop-blur border shadow px-3 py-2 rounded-full text-sm; }
+.pm-badge { @apply inline-flex items-center gap-1 px-2 py-0.5 rounded bg-black/70 text-white text-xs; }

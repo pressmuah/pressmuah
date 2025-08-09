@@ -1,6 +1,6 @@
 {
-  "name": "pressmuah-starter",
-  "version": "0.1.0",
+  "name": "pressmuah-next-starter",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
