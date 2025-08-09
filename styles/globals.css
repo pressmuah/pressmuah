@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{--pm-bg:255 255 255;--pm-fg:17 17 17;--pm-accent:234 76 137}
+body{background-color:rgb(var(--pm-bg));color:rgb(var(--pm-fg))}
+.pm-toolbar button{ @apply px-3 py-1 rounded border text-sm; }
+.pm-badge{ @apply inline-flex items-center gap-1 px-2 py-0.5 rounded bg-black/70 text-white text-xs; }
